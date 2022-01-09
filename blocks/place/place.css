@@ -1,0 +1,33 @@
+.place {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    gap: 48px 40px;
+    margin: 0 0 80px;
+}
+
+.place:last-child{
+    margin: 0;
+}
+
+@media  screen and (max-width: 1100px) {
+    .place {
+        grid-template-columns: 440px 1fr;
+        gap: 48px 32px;
+    }
+}
+
+@media  screen and (max-width: 800px) {
+    .place {
+        grid-template-columns: 340px 1fr;
+        gap: 48px 28px;
+        margin: 0 0 73px;
+    }
+}
+@media  screen and (max-width: 600px) {
+    .place {
+        grid-template-columns: none;
+        margin: 0 0 73px;
+        gap: 48px 28px;
+    }
+}
