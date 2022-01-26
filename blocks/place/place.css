@@ -24,10 +24,16 @@
         margin: 0 0 73px;
     }
 }
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 700px) {
     .place {
         grid-template-columns: none;
         margin: 0 0 73px;
         gap: 48px 28px;
+    }
+}
+@media  screen and (max-width: 600px) {
+    .place {
+        margin: 0 0 50px;
+        gap: 32px;
     }
 }
